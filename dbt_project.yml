@@ -6,7 +6,7 @@ name: 'gadslh'
 version: '1.0.0'
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'name of your profile file'
+profile: 'dbt-singh-test'
 
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
@@ -33,14 +33,14 @@ models:
                 staging:
                         materialized: ephemeral
         vars: 
-                t_campaignStats: 'name of campaignStats table'
-                t_campaign: 'name of campaign table'
-                t_ads: 'name of ads table'
-                t_adStats: 'name of adStats table`'
-                t_campaignConv: 'name of campaignConversionStats table'
-                t_adGroupStats: 'name of adGroupStats table'
-                t_adGroup: 'name of adGroup table'
-                t_adGroupConv: 'name of adGroupConversions table'
+                t_campaignStats: 'databases-297008.Google_Ads_Goes.p_CampaignStats_5726034613'
+                t_campaign: 'databases-297008.Google_Ads_Goes.p_Campaign_5726034613'
+                t_ads: 'p_Ad_5726034613'
+                t_adStats: 'p_AdBasicStats_5726034613'
+                t_campaignConv: 'p_CampaignConversionStats_5726034613'
+                t_adGroupStats: 'p_AdGroupStats_5726034613'
+                t_adGroup: 'p_AdGroup_5726034613'
+                t_adGroupConv: 'p_AdGroupConversionStats_5726034613'
                 convName1: 'name of first conversion'
                 convName2: 'name of second conversion'
                 convName3: 'name of third conversion'
