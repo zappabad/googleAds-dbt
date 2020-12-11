@@ -6,7 +6,7 @@ cc.Conversions,
 cc.conv1, 
 cc.conv2, 
 cc.conv3,
-(sum(cb.clicks) / sum(im.impr)) ctr,
+(sum(cb.clicks) / sum(NULLIF(im.impr,0))) ctr,
 (sum(cb.cost) / sum(NULLIF(cb.clicks,0))) cpc,
 (sum(cc.Conversions) / sum(NULLIF(cb.clicks,0))) convRate,
 (sum(cb.Cost) / sum(NULLIF(cc.Conversions, 0))) costPerConv
