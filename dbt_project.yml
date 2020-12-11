@@ -33,16 +33,16 @@ models:
                 staging:
                         materialized: ephemeral
         vars: 
-                t_campaignStats: 'databases-297008.Google_Ads_Goes.p_CampaignStats_5726034613'
-                t_campaign: 'databases-297008.Google_Ads_Goes.p_Campaign_5726034613'
-                t_ads: 'p_Ad_5726034613'
-                t_adStats: 'p_AdBasicStats_5726034613'
-                t_campaignConv: 'p_CampaignConversionStats_5726034613'
-                t_adGroupStats: 'p_AdGroupStats_5726034613'
-                t_adGroup: 'p_AdGroup_5726034613'
-                t_adGroupConv: 'p_AdGroupConversionStats_5726034613'
-                convName1: 'name of first conversion'
-                convName2: 'name of second conversion'
-                convName3: 'name of third conversion'
+                t_campaignStats: '`databases-297008.Google_Ads_Goes.p_CampaignStats_5726034613`'
+                t_campaign: '`databases-297008.Google_Ads_Goes.p_Campaign_5726034613`'
+                t_ads: '`databases-297008.Google_Ads_Goes.p_Ad_5726034613`'
+                t_adStats: '`databases-297008.Google_Ads_Goes.p_AdBasicStats_5726034613`'
+                t_campaignConv: '`databases-297008.Google_Ads_Goes.p_CampaignConversionStats_5726034613`'
+                t_adGroupStats: '`databases-297008.Google_Ads_Goes.p_AdGroupStats_5726034613`'
+                t_adGroup: '`databases-297008.Google_Ads_Goes.p_AdGroup_5726034613`'
+                t_adGroupConv: '`databases-297008.Google_Ads_Goes.p_AdGroupConversionStats_5726034613`'
+                convName1: '"Conversaoum"'
+                convName2: '"Conversaodois"'
+                convName3: '"Conversaotres"'
                 
   
