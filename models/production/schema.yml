@@ -5,6 +5,9 @@ models:
     description: "Google Ads campaign data"
 
     columns: 
+      - name: Date
+        description: Date of the observations
+        
       - name: campaignName
         description: Name of the Google Ads campaign
 
