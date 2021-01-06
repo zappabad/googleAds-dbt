@@ -1,0 +1,5 @@
+packages:
+  - package: fishtown-analytics/dbt_utils
+    version: 0.6.3
+  - package: fishtown-analytics/facebook-ads
+    version: 0.2.6
